@@ -1,0 +1,28 @@
+{
+  "name": "graphql-lambda-api",
+  "version": "1.0.0",
+  "description": "Allow us to query Subreddits\r Use existing APIs and integrate them easily with GraphQL. We will build a GraphQL application that will allow us to query Subreddits and display its posts.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsodomka/GraphQL-Lambda-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsodomka/GraphQL-Lambda-API/issues"
+  },
+  "homepage": "https://github.com/jsodomka/GraphQL-Lambda-API#readme",
+  "dependencies": {
+    "aws-serverless-express": "^3.4.0",
+    "axios": "^0.26.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.3.0"
+  }
+}
